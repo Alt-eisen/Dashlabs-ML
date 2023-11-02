@@ -19,8 +19,8 @@ if (!fs.existsSync(outputDir)) {
 // Recognizes text from the image
 Tesseract.recognize(
   imageFilePath,
-  'eng', // You can specify the language here
-  { logger: (info) => console.log(info) } // Optional: for logging progress
+  'eng', // You can specify the language needed here
+  { logger: (info) => console.log(info) } // for logging progress
 )
   .then(({ data: { text } }) => {
     // Save the recognized text to a text file
