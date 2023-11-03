@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Remember to change the file name on imageFilePath
-const imageFilePath = './AnnexG_PyschEval_Written_page-0001.jpg'; 
+const imageFilePath = 'ocr-app/test1.jpg'; 
 const outputDir = 'output'; // Directory to save OCR results
 
 
