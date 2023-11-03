@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tesseract.js": "^5.0.3"
+    "dataframe-js": "^1.4.4",
+    "node-tesseract": "^0.2.7",
+    "tesseract.js": "^5.0.3",
+    "text-segmentation": "^1.0.3"
   }
 }
